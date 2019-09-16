@@ -97,3 +97,15 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 .spage-skip input{box-sizing: border-box;display: inline-block;width: 45px;height: 30px;line-height: 30px;text-align: center;vertical-align: top;border: 1px solid #ddd;outline: 0;transition: all .2s;}
 .spage-skip span{display: inline-block;padding: 0 14px;line-height: 28px;vertical-align: top;color: #666;outline: 0;border: 1px solid #ddd;cursor: pointer;transition: all .2s;}
 
+.tips{padding-left:20px; display:inline-block;vertical-align: middle;height:20px;line-height:20px; font-size:12px;}
+.tips .erro{color:#e64141;}
+.tips .succ{color:#8cd232;}
+.icon_succ,.icon_del {
+	background: url(../images/reg_ico.png) no-repeat -60px 0;
+	width: 15px;
+	height: 15px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:3px;
+}
+
