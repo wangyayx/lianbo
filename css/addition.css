@@ -85,6 +85,22 @@
 	font-size:16px;
 	border-radius:4px;
 }
+.release_task_dialog{
+	padding-top:28px;
+	padding-bottom:50px;
+	text-align:center;
+}
+.release_task_dialog dt{
+	margin-bottom:20px;
+}
+.release_task_dialog dt img{
+	margin:0 auto;
+}
+.release_task_dialog dd{
+	line-height:28px;
+	color:#666;
+}
+
 /*单选*/
 .icheckbox_flat-green,.iradio_flat-green{display: inline-block;*display: inline;vertical-align: middle;margin: 0;padding: 0;width: 20px;height: 20px;background: url(../images/green.png) no-repeat;border: none;cursor: pointer;}
 .icheckbox_flat-green{background-position: 0 0;}

@@ -193,6 +193,63 @@
 	padding-top:45px;
 	padding-left:68px;
 }
+.release_task_list{
+	padding-top: 100px;
+	padding-bottom:24px;
+}
+.release_task_list td{
+	padding:10px 0;
+	vertical-align:top;
+	line-height:28px;
+}
+.release_task_list .in_taskbtn{
+	margin:0;
+}
+.select{
+	width:300px;
+	height:34px;
+	line-height:34px;
+	padding-left:15px;
+	border:1px solid #ddd;
+	color:#666;
+}
+.release_task_cate label{
+	margin-right:30px;
+	display:inline-block;
+}
+.release_task_cate label span{
+	margin-left:10px;
+}
+.release_task_list textarea{
+	line-height:24px;
+	padding:10px 14px;
+	width:440px;
+	box-sizing:border-box;
+	border:1px solid #ddd;
+}
+.textarea_tips{
+	color:#999;
+	line-height:28px;
+	font-size:12px;
+}
+.release_task_time input{
+	border:1px solid #ddd;
+	height:34px;
+	line-height:34px;
+	color:#666;
+	box-sizing:border-box;
+}
+.release_task_time .date{
+	width:200px;
+	margin-right:20px;
+	background:url(../images/190910_icon09.png) no-repeat 13px 50%;
+	padding-left:36px;
+}
+.release_task_time .time{
+	width:76px;
+	text-align:center;
+	
+}
 
 
 
