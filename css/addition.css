@@ -35,12 +35,9 @@
 
 /*弹窗样式*/
 .dialog{position:fixed;width:100%;height:100%;z-index:99;background:rgba(0,0,0,.5);top:0;left:0;display:none;}
-.acceptTask{width:500px;height:300px;background:#fff;position:fixed;left:50%;top:50%;margin:-150px 0 0 -250px;}
+.acceptTask{width:500px;height:300px;background:#fff;position:fixed;left:50%;top:50%;margin:-150px 0 0 -250px;padding:24px 40px 0;}
 .dialogTitle span{font-size:18px;color:#333;font-weight:400;line-height:30px;}
 .close_dialog{background:url(../images/close.png) no-repeat;width:16px;height:15px;display:block;position:absolute;right:24px;top:24px;}
-.acceptTask{
-	padding:24px 40px 0;
-}
 .dialogMain{
 	padding-top:40px;
 	height:150px;
@@ -100,6 +97,70 @@
 	line-height:28px;
 	color:#666;
 }
+.taskComplete{
+	width:500px;
+	height:410px;
+	background:#fff;position:fixed;left:50%;top:50%;margin:-205px 0 0 -250px;
+	padding:24px 28px 0;
+	box-sizing:border-box;
+}
+.taskComplete_list{
+	padding-top:20px;
+}
+.taskComplete_list h2{
+	line-height:20px;
+	margin-bottom:20px;
+}
+.taskComplete_list ul{
+	zoom:1;
+	min-height: 228px;
+	width:456px;
+}
+.taskComplete_list li{
+	float:left;
+	margin:0 14px 14px 0;
+}
+.complaint_item{
+	overflow:auto;
+}
+.complaint_item_title{
+	padding-top:20px;
+	margin-bottom:10px;
+}
+.complaint_item_input{
+	width:100%;
+	border:1px solid #666;
+	padding:0 15px;
+	box-sizing:border-box;
+	line-height:36px;
+}
+.complaint_item_file{
+	width:1300px;
+}
+.complaint_item_file .img{
+	display:inline-block;
+	margin-right:10px;
+	position:relative;
+}
+.complaint_item_file .file_box{
+	display:inline-block;
+	width:100px;
+	height:100px;
+}
+.complaint_item_file .file_input{
+	width:100px;
+	height:100px;
+}
+.complaint_img_delete{
+	background:url(../images/190910_icon11.png) no-repeat;
+	width:24px;
+	height:24px;
+	position:absolute;
+	display:block;
+	top:4px;
+	right:4px;
+	cursor:pointer;
+}
 
 /*单选*/
 .icheckbox_flat-green,.iradio_flat-green{display: inline-block;*display: inline;vertical-align: middle;margin: 0;padding: 0;width: 20px;height: 20px;background: url(../images/green.png) no-repeat;border: none;cursor: pointer;}
@@ -112,7 +173,7 @@
 .iradio_flat-green.disabled{background-position: -132px 0;cursor: default;}
 .iradio_flat-green.checked.disabled{background-position: -154px 0;}
 
-/* HiDPI support */
+/* HiDPI support
 @media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
     .icheckbox_flat-green,
     .iradio_flat-green {
@@ -121,6 +182,7 @@
         background-size: 176px 22px;
     }
 }
+ */
 
 .flat-radio-label{
 	vertical-align:middle;

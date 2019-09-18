@@ -121,6 +121,19 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 	top:90px;
 	position:absolute;
 	border-radius:14px;
+	cursor:pointer;
+}
+.btn_cancel{
+	width:98px;
+	line-height:28px;
+	border:1px solid #999;
+	text-align:center;
+	color:#666;
+	display: inline-block;
+	border-radius:15px;
+	font-size:16px;
+	margin-right:20px;
+	vertical-align:middle;
 }
 .btn_complete{
 	width:80px;
@@ -133,6 +146,7 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 	top:90px;
 	position:absolute;
 	border-radius:14px;
+	cursor:pointer;
 }
 /*分页*/
 .pages{text-align:center;}

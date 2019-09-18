@@ -248,7 +248,10 @@
 .release_task_time .time{
 	width:76px;
 	text-align:center;
-	
+}
+.task_date{
+	padding-top:20px;
+	line-height:24px;
 }
 
 

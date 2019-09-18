@@ -8,7 +8,6 @@
 <link href="css/master.css" rel="stylesheet" type="text/css" />
 <link href="css/addition.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="js/icheck.js"></script>
 </head>
 
 <body>
@@ -66,8 +65,8 @@
 			<dl class="wrap_nav_item">
 				<dt class="wrap_nav_title1">任务中心</dt>
 				<dd><a href="商家中心-发布任务.html">发布任务</a></dd>
-				<dd><a href="商家中心-发布任务管理.html" class="active">发布任务管理</a></dd>
-				<dd><a href="#">接收任务管理</a></dd>
+				<dd><a href="商家中心-发布任务管理.html">发布任务管理</a></dd>
+				<dd><a href="#" class="active">接收任务管理</a></dd>
 			</dl>
 			<dl class="wrap_nav_item">
 				<dt class="wrap_nav_title2">基本信息</dt>
@@ -103,25 +102,23 @@
 		</div>
 		<div class="wrap_main">
 			<div class="main_title">
-				发布任务管理
+				接收任务管理
 			</div>
 			<div class="complaint">
 				<div class="manage_tab clearfix">
-					<a href="javascript:void(0)" class="active">已发布</a>
-					<a href="javascript:void(0)">任务中</a>
+					<a href="javascript:void(0)" class="active">任务中</a>
 					<a href="javascript:void(0)">已完成</a>
-					<a href="javascript:void(0)">已投诉</a>
+					<a href="javascript:void(0)">被投诉</a>
 				</div>
 				<div class="manage_search clearfix">
 					<input name="" type="text" placeholder="搜索任务">
 					<span>搜索</span>
 				</div>
-				<div class="manage_list">					
-					<div class="manage_item" style="display: block;">
+				<div class="manage_list">
+					<div class="manage_item" style="display:block">
 						<div class="complaint_list">
 							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-								<span class="fr">审核通过</span>
+								<span>任务领取时间：2019-03-29 17:19:31</span>
 							</div>
 							
 							<div class="complaint_info clearfix">
@@ -129,28 +126,31 @@
 									<img src="images/190910_img04.png" />
 								</div>
 								<div class="complaint_B">
+									<div class="complaint_name">
+										<span class="name">XX直播间</span>
+										<span class="id">ID:hfkd289</span>
+										<span class="cate">电器</span>
+									</div>
 									<div class="complaint_B_tag">
 										<span>红包</span>
 										<span>红包</span>
 										<span>红包</span>
 										<span>红包</span>
 									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
-									</div>
 									<p>开播时间：2019-09-12 13:00</p>
 									<p>下播时间：2019-09-12 13:00</p>
 								</div>
 								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
+									<h2>任务要求：</h2>
+									<p>1.填写直播印记内容：xxxxxxxxxxxxxxxxxxxxxxx</p>
+									<p>2.主播口述直播印记内容，并配合弹关注窗口弹框，一次/小时</p>
 								</div>
 							</div>
+							<span class="btn_complete">完成</span>
 						</div>
 						<div class="complaint_list">
 							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-								<span class="fr color1">审核未通过</span>
+								<span>任务领取时间：2019-03-29 17:19:31</span>
 							</div>
 							
 							<div class="complaint_info clearfix">
@@ -158,29 +158,69 @@
 									<img src="images/190910_img04.png" />
 								</div>
 								<div class="complaint_B">
+									<div class="complaint_name">
+										<span class="name">XX直播间</span>
+										<span class="id">ID:hfkd289</span>
+										<span class="cate">电器</span>
+									</div>
 									<div class="complaint_B_tag">
 										<span>红包</span>
 										<span>红包</span>
 										<span>红包</span>
 										<span>红包</span>
 									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
+									<p>开播时间：2019-09-12 13:00</p>
+									<p>下播时间：2019-09-12 13:00</p>
+								</div>
+								<div class="complaint_C">
+									<h2>任务要求：</h2>
+									<p>1.填写直播印记内容：xxxxxxxxxxxxxxxxxxxxxxx</p>
+									<p>2.主播口述直播印记内容，并配合弹关注窗口弹框，一次/小时</p>
+								</div>
+							</div>
+							<span class="btn_complete">完成</span>
+						</div>
+					</div>
+					
+					<div class="manage_item">
+						<div class="complaint_list">
+							<div class="complaint_list_title">
+								<span>任务领取时间：2019-03-29 17:19:31</span>
+							</div>
+							
+							<div class="complaint_info clearfix">
+								<div class="complaint_A">
+									<img src="images/190910_img04.png" />
+								</div>
+								<div class="complaint_B">
+									<div class="complaint_name">
+										<span class="name">XX直播间</span>
+										<span class="id">ID:hfkd289</span>
+										<span class="cate">电器</span>
+									</div>
+									<div class="complaint_B_tag">
+										<span>红包</span>
+										<span>红包</span>
+										<span>红包</span>
+										<span>红包</span>
 									</div>
 									<p>开播时间：2019-09-12 13:00</p>
 									<p>下播时间：2019-09-12 13:00</p>
 								</div>
 								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
+									<h2>任务要求：</h2>
+									<p>1.填写直播印记内容：xxxxxxxxxxxxxxxxxxxxxxx</p>
+									<p>2.主播口述直播印记内容，并配合弹关注窗口弹框，一次/小时</p>
 								</div>
 							</div>
-							<span class="btn_edit">编辑修改</span>					
-							<span class="color1 complaint_cause">未通过原因：活动不符合要求</span>
-						</div>
+						</div>						
+					</div>
+					
+					<div class="manage_item">
+					
 						<div class="complaint_list">
 							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
+								<span>任务领取时间：2019-03-29 17:19:31</span>
 								<span class="fr color1">审核中</span>
 							</div>
 							
@@ -189,28 +229,32 @@
 									<img src="images/190910_img04.png" />
 								</div>
 								<div class="complaint_B">
+									<div class="complaint_name">
+										<span class="name">XX直播间</span>
+										<span class="id">ID:hfkd289</span>
+										<span class="cate">电器</span>
+									</div>
 									<div class="complaint_B_tag">
 										<span>红包</span>
 										<span>红包</span>
 										<span>红包</span>
 										<span>红包</span>
 									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
-									</div>
 									<p>开播时间：2019-09-12 13:00</p>
 									<p>下播时间：2019-09-12 13:00</p>
 								</div>
 								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
+									<h2>任务要求：</h2>
+									<p>1.填写直播印记内容：xxxxxxxxxxxxxxxxxxxxxxx</p>
+									<p>2.主播口述直播印记内容，并配合弹关注窗口弹框，一次/小时</p>
 								</div>
 							</div>
+							<span class="btn_complete">申诉</span>
 						</div>
 						<div class="complaint_list">
 							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-								<span class="fr c666">已过期</span>
+								<span>任务领取时间：2019-03-29 17:19:31</span>
+								<span class="fr">投诉受理成功（任务失败）</span>
 							</div>
 							
 							<div class="complaint_info clearfix">
@@ -218,262 +262,61 @@
 									<img src="images/190910_img04.png" />
 								</div>
 								<div class="complaint_B">
+									<div class="complaint_name">
+										<span class="name">XX直播间</span>
+										<span class="id">ID:hfkd289</span>
+										<span class="cate">电器</span>
+									</div>
 									<div class="complaint_B_tag">
 										<span>红包</span>
 										<span>红包</span>
 										<span>红包</span>
 										<span>红包</span>
 									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
+									<p>开播时间：2019-09-12 13:00</p>
+									<p>下播时间：2019-09-12 13:00</p>
+								</div>
+								<div class="complaint_C">
+									<h2>任务要求：</h2>
+									<p>1.填写直播印记内容：xxxxxxxxxxxxxxxxxxxxxxx</p>
+									<p>2.主播口述直播印记内容，并配合弹关注窗口弹框，一次/小时</p>
+								</div>
+							</div>
+						</div>
+						<div class="complaint_list">
+							<div class="complaint_list_title">
+								<span>任务领取时间：2019-03-29 17:19:31</span>
+								<span class="fr">投诉受理驳回（任务成功）</span>
+							</div>
+							
+							<div class="complaint_info clearfix">
+								<div class="complaint_A">
+									<img src="images/190910_img04.png" />
+								</div>
+								<div class="complaint_B">
+									<div class="complaint_name">
+										<span class="name">XX直播间</span>
+										<span class="id">ID:hfkd289</span>
+										<span class="cate">电器</span>
+									</div>
+									<div class="complaint_B_tag">
+										<span>红包</span>
+										<span>红包</span>
+										<span>红包</span>
+										<span>红包</span>
 									</div>
 									<p>开播时间：2019-09-12 13:00</p>
 									<p>下播时间：2019-09-12 13:00</p>
 								</div>
 								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
+									<h2>任务要求：</h2>
+									<p>1.填写直播印记内容：xxxxxxxxxxxxxxxxxxxxxxx</p>
+									<p>2.主播口述直播印记内容，并配合弹关注窗口弹框，一次/小时</p>
 								</div>
 							</div>
 						</div>
+											
 					</div>
-					<div class="manage_item">
-						<div class="complaint_list">
-							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-							</div>
-							
-							<div class="complaint_info clearfix">
-								<div class="complaint_A">
-									<img src="images/190910_img04.png" />
-								</div>
-								<div class="complaint_B">
-									<div class="complaint_B_tag">
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
-									</div>
-									<p>开播时间：2019-09-12 13:00</p>
-									<p>下播时间：2019-09-12 13:00</p>
-								</div>
-								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
-								</div>
-							</div>
-						</div>
-						<div class="complaint_list">
-							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-							</div>
-							
-							<div class="complaint_info clearfix">
-								<div class="complaint_A">
-									<img src="images/190910_img04.png" />
-								</div>
-								<div class="complaint_B">
-									<div class="complaint_B_tag">
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
-									</div>
-									<p>开播时间：2019-09-12 13:00</p>
-									<p>下播时间：2019-09-12 13:00</p>
-								</div>
-								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
-								</div>
-							</div>
-						</div>
-						<div class="complaint_list">
-							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-							</div>
-							
-							<div class="complaint_info clearfix">
-								<div class="complaint_A">
-									<img src="images/190910_img04.png" />
-								</div>
-								<div class="complaint_B">
-									<div class="complaint_B_tag">
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
-									</div>
-									<p>开播时间：2019-09-12 13:00</p>
-									<p>下播时间：2019-09-12 13:00</p>
-								</div>
-								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
-								</div>
-							</div>
-						</div>
-						<div class="complaint_list">
-							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-							</div>
-							
-							<div class="complaint_info clearfix">
-								<div class="complaint_A">
-									<img src="images/190910_img04.png" />
-								</div>
-								<div class="complaint_B">
-									<div class="complaint_B_tag">
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
-									</div>
-									<p>开播时间：2019-09-12 13:00</p>
-									<p>下播时间：2019-09-12 13:00</p>
-								</div>
-								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="manage_item">
-						<div class="complaint_list">
-							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-							</div>
-							
-							<div class="complaint_info clearfix">
-								<div class="complaint_A">
-									<img src="images/190910_img04.png" />
-								</div>
-								<div class="complaint_B">
-									<div class="complaint_B_tag">
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
-									</div>
-									<p>开播时间：2019-09-12 13:00</p>
-									<p>下播时间：2019-09-12 13:00</p>
-								</div>
-								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
-								</div>
-							</div>
-							<span class="btn_complete">完成</span>
-						</div>
-						<div class="complaint_list">
-							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-							</div>
-							
-							<div class="complaint_info clearfix">
-								<div class="complaint_A">
-									<img src="images/190910_img04.png" />
-								</div>
-								<div class="complaint_B">
-									<div class="complaint_B_tag">
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
-									</div>
-									<p>开播时间：2019-09-12 13:00</p>
-									<p>下播时间：2019-09-12 13:00</p>
-								</div>
-								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
-								</div>
-							</div>
-							<span class="btn_edit btn_complaint">投诉</span>
-						</div>
-					</div>
-					<div class="manage_item">
-						<div class="complaint_list">
-							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-								<span class="fr">投诉通过／审核中</span>
-							</div>
-							
-							<div class="complaint_info clearfix">
-								<div class="complaint_A">
-									<img src="images/190910_img04.png" />
-								</div>
-								<div class="complaint_B">
-									<div class="complaint_B_tag">
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
-									</div>
-									<p>开播时间：2019-09-12 13:00</p>
-									<p>下播时间：2019-09-12 13:00</p>
-								</div>
-								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
-								</div>
-							</div>
-						</div>
-						<div class="complaint_list">
-							<div class="complaint_list_title">
-								<span>发布时间：2019-03-29 17:19:31</span>
-								<span class="fr color1">投诉不成立</span>
-							</div>
-							
-							<div class="complaint_info clearfix">
-								<div class="complaint_A">
-									<img src="images/190910_img04.png" />
-								</div>
-								<div class="complaint_B">
-									<div class="complaint_B_tag">
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-										<span>红包</span>
-									</div>
-									<div class="complaint_B_tag active">
-										<span>电器</span>
-									</div>
-									<p>开播时间：2019-09-12 13:00</p>
-									<p>下播时间：2019-09-12 13:00</p>
-								</div>
-								<div class="complaint_C">
-									<h2>直播内容：</h2>
-									<p>品牌女装推广活动，介绍产品品牌女装 推广活动，介绍产品品牌女装推广活动， 介绍产品品牌女装。</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					
-					
 					
 					
 				</div>
@@ -501,43 +344,91 @@
 		<p>Copyright © 2006-2019 lianbopingtai.com 联播平台 版权所有 ICP备07009935号<img src="images/icon01.png"/>公网安备45010702000011号</p>
 	</div>
 </div>
-<div class="dialog dialogComplete">
+
+<div class="dialog dialogComplaint" style="display:block;">
 	<div class="taskComplete">
 		<div class="dialogTitle">
 			<span>任务完成确认</span>
 			<a href="javascript:void(0)" class="close_dialog"></a>
 		</div>
-		<div class="taskComplete_list">
-			<h2>直播推广图片</h2>
-			<ul class="clearfix">
-				<li><img src="images/190910_img08.png" /></li>
-				<li><img src="images/190910_img08.png" /></li>
-				<li><img src="images/190910_img08.png" /></li>
-				<li><img src="images/190910_img08.png" /></li>				
-			</ul>
+		<div class="complaint_item">
+			<div class="complaint_item_title">
+				<span class="c666">直播推广图片</span>
+				<span class="c999">（最多上传10张)</span>
+			</div>
+			<div class="complaint_item_file">
+				<div class="img">
+					<img src="images/190910_img09.jpg" />
+					<span class="complaint_img_delete"></span>
+				</div>
+				<div class="img">
+					<img src="images/190910_img09.jpg" />
+					<span class="complaint_img_delete"></span>
+				</div>
+				<div class="img">
+					<img src="images/190910_img09.jpg" />
+					<span class="complaint_img_delete"></span>
+				</div>
+				<div class="img">
+					<img src="images/190910_img09.jpg" />
+					<span class="complaint_img_delete"></span>
+				</div>
+				<div class="img">
+					<img src="images/190910_img09.jpg" />
+					<span class="complaint_img_delete"></span>
+				</div>
+				<div class="img">
+					<img src="images/190910_img09.jpg" />
+					<span class="complaint_img_delete"></span>
+				</div>
+				<div class="img">
+					<img src="images/190910_img09.jpg" />
+					<span class="complaint_img_delete"></span>
+				</div>
+				<div class="img">
+					<img src="images/190910_img09.jpg" />
+					<span class="complaint_img_delete"></span>
+				</div>
+				<div class="img">
+					<img src="images/190910_img09.jpg" />
+					<span class="complaint_img_delete"></span>
+				</div>
+				<div class="img">
+					<img src="images/190910_img09.jpg" />
+					<span class="complaint_img_delete"></span>
+				</div>
+				<div class="file_box">
+					<form action="" method="get">
+						<img src="images/190910_img10.jpg" />
+						<input type="file" name="fileField" class="file_input" id="fileField" size="28" onchange="document.getElementById('textfield01').value=this.value"> 
+					</form> 
+				</div>
+			</div>
 		</div>
-		<div class="tc">
-			<a href="#" class="btn_cancel">投诉</a>
+		<div class="task_date">
+			<p class="f12 c666">开播时间：2019-09-12 13:00</p>
+			<p class="f12 c666">下播时间：2019-09-12 13:00</p>
+		</div>
+		<div class="tc mt30">
 			<a href="#" class="btn100">确认完成</a>
 		</div>
 	</div>
 </div>
-<div class="dialog dialogComplaint" style="display:block;">
+<div class="dialog dialogComplaint">
 	<div class="taskComplete">
 		<div class="dialogTitle">
-			<span>投诉</span>
+			<span>申诉</span>
 			<a href="javascript:void(0)" class="close_dialog"></a>
 		</div>
 		<div class="complaint_item">
 			<div class="complaint_item_title">
-				<span class="c666">投诉原因</span>
-				<span class="c999">（最多20个字)</span>
+				<span class="c666">申诉理由</span>
 			</div>
-			<input class="complaint_item_input" name="" type="text" placeholder="请输入投诉原因">
+			<input class="complaint_item_input" name="" type="text" placeholder="请输入申诉理由">
 		</div>
 		<div class="complaint_item">
 			<div class="complaint_item_title">
-				<span class="c666">投诉图片</span>
+				<span class="c666">申诉图片</span>
 				<span class="c999">（最多上传10张)</span>
 			</div>
 			<div class="complaint_item_file">
@@ -589,20 +480,16 @@
 				</div>
 			</div>
 			
-			<p class="f12 c999">提示：投诉审核成功后，会返回您的发任务资格</p>
+			<p class="f12 c999">提示：申诉审核成功后，会返回您的发布任务资格 </p>
 		</div>
 		<div class="tc mt30">
-			<a href="#" class="btn100">投诉</a>
+			<a href="#" class="btn100">申诉</a>
 		</div>
 	</div>
 </div>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-	$('input').iCheck({
-		checkboxClass: 'icheckbox_flat-green',
-		radioClass: 'iradio_flat-green'
-	});
 	$('.btn_complete').click(function() {
 		$(".dialogComplete").show(200)
 	})
