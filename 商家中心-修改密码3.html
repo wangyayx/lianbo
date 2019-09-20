@@ -8,7 +8,6 @@
 <link href="css/master.css" rel="stylesheet" type="text/css" />
 <link href="css/addition.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="js/icheck.js"></script>
 </head>
 
 <body>
@@ -65,13 +64,13 @@
 		<div class="wrap_nav">
 			<dl class="wrap_nav_item">
 				<dt class="wrap_nav_title1">任务中心</dt>
-				<dd><a href="商家中心-发布任务.html" class="active">发布任务</a></dd>
+				<dd><a href="商家中心-发布任务.html">发布任务</a></dd>
 				<dd><a href="商家中心-发布任务管理.html">发布任务管理</a></dd>
 				<dd><a href="#">接收任务管理</a></dd>
 			</dl>
 			<dl class="wrap_nav_item">
 				<dt class="wrap_nav_title2">基本信息</dt>
-				<dd><a href="商家中心-基本信息.html">账号信息</a></dd>
+				<dd><a href="商家中心-基本信息.html" class="active">账号信息</a></dd>
 				<dd><a href="#">实名认证</a></dd>
 				<dd><a href="#">更换手机</a></dd>
 				<dd><a href="#">直播间资料</a></dd>
@@ -103,112 +102,34 @@
 		</div>
 		<div class="wrap_main">
 			<div class="main_title">
-				发布任务
+				修改密码
 			</div>
 			<div class="release_task_tab">
 				<div class="retrv_step">
 					<ul class="clearfix">
 						<li class="active">
-							<i class="task_step1"></i>
-							<span>填写资料</span>
+							<i class="basepwd_step1"></i>
+							<span>验证身份</span>
 						</li>
-						<li>
-							<i class="task_step2"></i>
-							<span>等待审核</span>
+						<li class="active">
+							<i class="basepwd_step2"></i>
+							<span>输入新密码</span>
 						</li>
-						<li class="retrv_step_last">
-							<i class="task_step3"></i>
-							<span>发布成功</span>
+						<li class="retrv_step_last active">
+							<i class="basepwd_step3"></i>
+							<span>重置成功</span>
 						</li>
 					</ul>
 				</div>
 			</div>
-			<div class="release_task_list">
-				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-					<tr>
-						<td width="132" align="right">直播标题：</td>
-						<td width="480">
-							<div class="pl40 release_task_cate">
-								<label><input name="" type="checkbox" value="" /><span>红包</span></label>
-								<label><input name="" type="checkbox" value="" /><span>红包</span></label>
-								<label><input name="" type="checkbox" value="" /><span>红包</span></label>
-								<label><input name="" type="checkbox" value="" /><span>红包</span></label>
-							</div>
-						</td>
-						<td>
-							
-						</td>
-					</tr>
-					<tr>
-						<td align="right">活动详细：</td>
-						<td>
-							<div class="pl40">
-								<textarea rows="2" placeholder="请输入直播间名称以及活动力度信息，方便在对方直播印记展示！"></textarea>
-								<div class="textarea_tips">最多输入60个字</div>
-							</div>
-							
-						</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td align="right">产品图上传：</td>
-						<td>
-							<div class="file_box pl40">
-								<form action="" method="get">
-									<img src="images/190910_img07.png" />
-									<input type="file" name="fileField" class="file_input" id="fileField" size="28" onchange="document.getElementById('textfield01').value=this.value"> 
-								</form> 
-							</div>
-							<div class="f12 pl40">
-								<span class="c333">用于任务列表展示图片</span>
-								<span class="c999">（像素要求800*800，可选择jpg/jpeg/png/bmp）</span>                        
-							</div>
-						</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td align="right">开播时间：</td>
-						<td>
-							<div class="pl40 release_task_time">
-								<input name="" type="text" class="date" value="13:00">
-								<input name="" type="text" class="time" value="13:00">
-							</div>
-						</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td align="right">下播时间：</td>
-						<td>
-							<div class="pl40 release_task_time">
-								<input name="" type="text" class="date" value="13:00">
-								<input name="" type="text" class="time" value="13:00">
-							</div>
-						</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td align="right">直播产品类目：</td>
-						<td>
-							<div class="pl40">
-								<select name="" class="select">
-									<option>XXXXX</option>
-								</select>
-							</div>
-						</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td>
-							<div class="pl40">
-								<a href="#" class="in_taskbtn">发布任务</a>
-							</div>
-						</td>
-						<td></td>
-					</tr>
-				</table>
-
+			<div class="edit_pwd">
+				<div class="edit_pwd_succ tc">
+					<img src="images/190910_icon04.png" />
+					<p class="f16">恭喜你，修改密码成功！</p>
+					<a href="#" class="in_taskbtn mt20">去首页</a>
+				</div>
 			</div>
+			
 			
 		</div>
 	</div>
@@ -232,31 +153,8 @@
 	</div>
 </div>
 
-<div class="dialog" style=" display:block;">
-	<div class="acceptTask">
-		<div class="dialogTitle">
-			<span>发布提示</span>
-			<a href="javascript:void(0)" class="close_dialog"></a>
-		</div>
-		<dl class="release_task_dialog clearfix">
-			<dt><img src="images/190910_icon10.png" /></dt>
-			<dd>
-				<p>活动详情内容不符合规范，请重新填写</p>
-			</dd>
-		</dl>
-		<div class="tc">
-			<a href="#" class="btn100">返回修改</a>
-		</div>
-	</div>
-</div>
+
 <script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('input').iCheck({
-		checkboxClass: 'icheckbox_flat-green',
-		radioClass: 'iradio_flat-green'
-	});
-});
-</script>
+
 </body>
 </html>

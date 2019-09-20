@@ -45,13 +45,28 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 .f16{
 	font-size:16px;
 }
+.mt20{
+	margin-top:20px;
+}
 .mt30{
 	margin-top:30px;
+}
+.mr10{
+	margin-right:10px;
+}
+.mb10{
+	margin-bottom:10px;
 }
 .pl40{
 	padding-left:40px;
 }
-
+.input{
+	border:1px solid #dedede;
+	box-sizing:border-box;
+	line-height:36px;
+	height:36px;
+	padding:0 15px;
+}
 .top{
 	border-bottom:1px solid #e5e5e5;
 	height:35px;
