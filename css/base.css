@@ -38,6 +38,9 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 .c999{
 	color:#999;
 }
+.c_FF5000{
+	color:#FF5000;
+}
 .p_w{margin: 0 auto;width:1200px;}
 .f12{
 	font-size:12px;
@@ -51,16 +54,22 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 .mt30{
 	margin-top:30px;
 }
+.mt50{
+	margin-top:50px;
+}
 .mr10{
 	margin-right:10px;
 }
 .mb10{
 	margin-bottom:10px;
 }
+.ml10{
+	margin-left:10px;
+}
 .pl40{
 	padding-left:40px;
 }
-.input{
+.input,.select{
 	border:1px solid #dedede;
 	box-sizing:border-box;
 	line-height:36px;
@@ -189,5 +198,5 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 .file_box{position:relative;width:180px} 
 .file_box .file_txt{height:26px; border:1px solid #cdcdcd; width:180px;} 
 .file_box .file_btn{background-color:#FFF; border:1px solid #CDCDCD;height:28px; width:70px;} 
-.file_box .file_input{ position:absolute; top:0; right:0px; height:180px; filter:alpha(opacity:0);opacity: 0;width:180px }
+.file_box .file_input{ position:absolute; top:0; right:0px; height:180px; filter:alpha(opacity:0);opacity: 0;width:180px; cursor:pointer; }
 

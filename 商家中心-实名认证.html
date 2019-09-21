@@ -71,9 +71,9 @@
 			<dl class="wrap_nav_item">
 				<dt class="wrap_nav_title2">基本信息</dt>
 				<dd><a href="商家中心-基本信息.html">账号信息</a></dd>
-				<dd><a href="#">实名认证</a></dd>
-				<dd><a href="#">更换手机</a></dd>
-				<dd><a href="#">直播间资料</a></dd>
+				<dd><a href="商家中心-实名认证.html" class="active">实名认证</a></dd>
+				<dd><a href="商家中心-更换手机.html">更换手机</a></dd>
+				<dd><a href="商家中心-直播间资料.html">直播间资料</a></dd>
 			</dl>
 			<dl class="wrap_nav_item">
 				<dt class="wrap_nav_title3">服务中心</dt>
@@ -84,7 +84,7 @@
 			<dl class="wrap_nav_item">
 				<dt class="wrap_nav_title4">成功案例</dt>
 				<dd>
-					<a href="#" class="active">成功案例</a>
+					<a href="商家中心-成功案例.html">成功案例</a>
 				</dd>
 			</dl>
 			<dl class="wrap_nav_item">
@@ -102,53 +102,50 @@
 		</div>
 		<div class="wrap_main">
 			<div class="main_title">
-				成功案例
+				实名认证
 			</div>
-			<div class="success_case">
-				<ul class="clearfix">
-					<li>
-						<img src="images/190910_img01.jpg" />
-						<div class="success_case_info">
-							<span>红包</span>
-							<span class="success_case_tag">美食</span>
+			<div class="release_task_tab">
+				<div class="retrv_step">
+					<ul class="clearfix">
+						<li class="active">
+							<i class="verified_step1"></i>
+							<span>验证身份</span>
+						</li>
+						<li>
+							<i class="verified_step2"></i>
+							<span>上传个人照片</span>
+						</li>
+						<li class="retrv_step_last">
+							<i class="verified_step3"></i>
+							<span>认证成功</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="verified">
+				<div class="clearfix">
+					<div class="idcard_photo">
+						<p>1.上传身份证正面</p>
+						<div class="file_box">
+							<form action="" method="get">
+								<img src="images/190910_idcard1.png" />
+								<input type="file" name="fileField" class="file_input" id="fileField" size="28" onchange="document.getElementById('textfield01').value=this.value"> 
+							</form> 
 						</div>
-					</li>
-					<li>
-						<img src="images/190910_img01.jpg" />
-						<div class="success_case_info">
-							<span>红包</span>
-							<span class="success_case_tag">美食</span>
+					</div>
+					<div class="idcard_photo">
+						<p>2.上传身份证反面</p>
+						<div class="file_box">
+							<form action="" method="get">
+								<img src="images/190910_idcard1.png" />
+								<input type="file" name="fileField" class="file_input" id="fileField" size="28" onchange="document.getElementById('textfield01').value=this.value"> 
+							</form> 
 						</div>
-					</li>
-					<li>
-						<img src="images/190910_img01.jpg" />
-						<div class="success_case_info">
-							<span>红包</span>
-							<span class="success_case_tag">美食</span>
-						</div>
-					</li>
-					<li>
-						<img src="images/190910_img01.jpg" />
-						<div class="success_case_info">
-							<span>红包</span>
-							<span class="success_case_tag">美食</span>
-						</div>
-					</li>
-					<li>
-						<img src="images/190910_img01.jpg" />
-						<div class="success_case_info">
-							<span>红包</span>
-							<span class="success_case_tag">美食</span>
-						</div>
-					</li>
-					<li>
-						<img src="images/190910_img01.jpg" />
-						<div class="success_case_info">
-							<span>红包</span>
-							<span class="success_case_tag">美食</span>
-						</div>
-					</li>
-				</ul>
+					</div>				
+				</div>
+				<div class="mt50">
+					<a href="#" class="in_taskbtn">下一步</a>
+				</div>
 			</div>
 		</div>
 	</div>
