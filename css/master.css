@@ -111,8 +111,8 @@
 .retrv_step li span{position:absolute;left: -13px;width: 100px;}
 .retrv_main{padding-top:100px;}
 .retrv_item{border:1px solid #ccc;line-height:50px;position:relative;}
-.retrv_item label{width:77px;margin-right:60px;display:inline-block;text-align:center;}
-.retrv_item input{width: 330px;border: 0;}
+.retrv_item label{width:77px;margin-right:60px;display:inline-block;text-align:center;vertical-align:top;}
+.retrv_item input{width: 330px;border: 0; vertical-align:top; height:50px; line-height:50px;}
 .retrv_item .xz1{background:#ff8900;width:100px;height:44px;line-height:44px;position:absolute;right:3px;top:3px;color:#fff;text-align:center;border-radius:4px;}
 .retrv_item .disable{background:#ccc;}
 .regdialog{width:500px;height:564px;background:#fff;position:fixed;left:50%;top:50%;margin:-282px 0 0 -250px;box-sizing:border-box;padding:24px 24px 0;}
@@ -170,10 +170,14 @@
 .manage_search{padding:25px 0;}
 .manage_search input{border:1px solid #ddd;border-right:0;padding:0 15px;line-height:38px;height:38px;width:330px;float: left;background:#f8f8f8;}
 .manage_search span{color:#FF5000;border:1px solid #ff8900;display:block;float:left;line-height:38px;height:38px;text-align:center;width:60px;}
-.complaint_list{position:relative;}
+.complaint_list{position:relative;border:1px solid #ddd;margin-bottom:10px;}
 .complaint_list_title{border-bottom:1px solid #ddd;height:40px;line-height:40px;font-size:12px;color:#666;padding:0 15px;}
 .complaint_list_title span.fr{color:#333;font-size:14px;}
-.complaint_list{border:1px solid #ddd;margin-bottom:10px;}
+.complaint_list .btn_edit{
+	right: 80px;
+    top: 90px;
+    position: absolute;
+}
 .complaint_info{padding:15px;}
 .complaint_A{border:1px solid #ddd;float:left;margin-right:15px;}
 .complaint_B{float:left;width:295px;margin-right:15px;}
@@ -430,7 +434,69 @@
 .studioStandard,.studioStandard_img{
 	padding:10px 0 10px 160px;
 }
-
+.studioStandard_img{
+	display:none;
+}
+.studioStandard_img img{
+	margin-bottom:30px;
+}
+.btn-studio-up{
+	background: url(../images/190910_icon17_1.png) no-repeat 100% 50%;
+	display:inline-block;
+	padding-right:10px;
+}
+.btn-studio-down{
+	background: url(../images/190910_icon17_2.png) no-repeat 100% 50%;
+	display:inline-block;
+	padding-right:10px;
+}
+.studioID{
+	color:#666;
+	text-align:center;
+	padding:40px 0;
+}
+.studioID h2{
+	font-size:24px;
+	font-weight:bold;
+	color:#000;
+	margin-bottom:35px;
+}
+/*管理中心*/
+.base_site{
+	padding:25px;
+}
+.base_site_title{
+	margin-bottom:15px;
+}
+.base_site_title input{
+	font-size:18px;
+	color:#999;
+	font-weight:bold;
+	height:60px;
+	line-height:60px;
+	background:rgba(248,248,248,1);
+	padding:0 25px;
+	border:0;
+	box-sizing:border-box;
+	width:100%;
+}
+.base_site_main{
+	margin-bottom:30px;
+}
+.base_site_main textarea{
+	background:rgba(248,248,248,1);
+	box-sizing:border-box;
+	width:100%;
+	padding:20px 25px;
+	line-height:25px;
+	border:0;
+	word-wrap: break-word;
+    word-break: break-all;
+}
+.resetPwd{
+	padding-top:40px;
+	margin-bottom:10px;
+}
 
 
 
