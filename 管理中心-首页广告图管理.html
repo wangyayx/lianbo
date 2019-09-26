@@ -75,11 +75,11 @@
 				<dt class="wrap_nav_title3">基础设置</dt>
 				<dd><a href="管理中心-任务排序规则.html">任务排序规则</a></dd>
 				<dd><a href="管理中心-充值管理.html">充值管理</a></dd>
-				<dd><a href="管理中心-首页广告图管理.html">首页广告图管理</a></dd>
+				<dd><a href="管理中心-首页广告图管理.html" class="active">首页广告图管理</a></dd>
 				<dd><a href="管理中心-用户协议管理.html">用户协议管理 </a></dd>
 				<dd><a href="管理中心-平台规则管理.html">平台规则管理</a></dd>
 				<dd><a href="管理中心-账户密码重置.html">账户密码重置</a></dd>
-				<dd><a href="管理中心-官方公告.html" class="active">官方公告</a></dd>
+				<dd><a href="管理中心-官方公告.html">官方公告</a></dd>
 			</dl>
 			<dl class="wrap_nav_item">
 				<dt class="wrap_nav_title4">投诉仲裁</dt>
@@ -89,19 +89,44 @@
 			</dl>			
 		</div>
 		<div class="wrap_main">
-			<div class="main_title">
-				官方公告
-			</div>
-			<div class="base_site">
-				<div class="base_site_title">
-					<input name="" type="text" placeholder="请输入公告标题">
+			<div class="main_title">首页广告图管理</div>
+			<div class="advert_manage">
+				<a href="#" class="add_advert_btn">+添加广告图</a>
+				<div class="advert_item">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="70">
+									<div class="tc f16">01</div>
+								</td>
+								<td width="200"><img src="images/190910_img14.jpg" /></td>
+								<td>
+									<p class="advert_item_desc">广告图描述</p>
+								</td>
+								<td width="162">
+									<span class="btn_complete">修改</span>
+									<span class="btn_edit">删除</span>
+								</td>
+							</tr>
+					</table>
 				</div>
-				<div class="base_site_main">
-					<textarea rows="14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</textarea>
+				<div class="advert_item">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="70">
+									<div class="tc f16">02</div>
+								</td>
+								<td width="200"><img src="images/190910_img14.jpg" /></td>
+								<td>
+									<p class="advert_item_desc">广告图描述</p>
+								</td>
+								<td width="162">
+									<span class="btn_complete">修改</span>
+									<span class="btn_edit">删除</span>
+								</td>
+							</tr>
+					</table>
 				</div>
-				<a href="javascript:void(0)" class="in_taskbtn">保存</a>	
 			</div>
-			
 		</div>
 	</div>
 </div>
@@ -121,6 +146,33 @@
 			</span>
 		</p>
 		<p>Copyright © 2006-2019 lianbopingtai.com 联播平台 版权所有 ICP备07009935号<img src="images/icon01.png"/>公网安备45010702000011号</p>
+	</div>
+</div>
+<div class="dialog dialogComplete" style="display:block">
+	<div class="acceptTask">
+		<div class="dialogTitle">
+			<span>上传图片</span>
+			<a href="javascript:void(0)" class="close_dialog"></a>
+		</div>
+		<div class="upload_advert">
+			<div class="upload_advert_row">
+				<p>选择图片</p>
+				<div class="file_box">
+					<form action="" method="get">
+						<input type="text" name="textfield" id="textfield06" class="file_txt"> 
+						<input type="button" class="file_btn" value="浏览..."> 
+						<input type="file" name="fileField" class="file_input" id="fileField" size="28" onchange="document.getElementById('textfield06').value=this.value"> 
+					</form> 
+				</div>
+			</div>
+			<div class="upload_advert_row">
+				<p>广告图描述</p>
+				<input name="" type="text" placeholder="请输入" class="upload_advert_desc input">
+			</div>
+		</div>
+		<div class="tc">
+			<a href="#" class="btn_sub">上传</a>
+		</div>
 	</div>
 </div>
 <script type="text/javascript" src="js/main.js"></script>

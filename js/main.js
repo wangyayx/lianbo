@@ -17,6 +17,12 @@ $(".close_dialog").on("click", function(e){
 	$(this).parents(".dialog").hide(200)
 });
 
+$('.recharge_tab a').click(function() {
+    var i = $(this).index();
+    $(this).addClass('active').siblings().removeClass('active');
+    $('.recharge_vip .recharge_item').eq(i).show().siblings().hide();
+});
+
 $('.manage_tab a').click(function() {
     var i = $(this).index();
     $(this).addClass('active').siblings().removeClass('active');

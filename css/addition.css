@@ -161,7 +161,37 @@
 	right:4px;
 	cursor:pointer;
 }
-
+.upload_advert .file_box{
+	width:386px;
+}
+.upload_advert .file_box .file_txt{
+	width:308px;
+}
+.upload_advert .file_box .file_input{
+	width:100%;
+	height:36px;
+}
+.check_merchant_main{
+	width:500px;
+	height:260px;
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -130px 0 0 -250px;
+    padding: 24px 28px 0;
+    box-sizing: border-box;
+}
+.check_merchant_text{
+	padding:30px 0;
+}
+.check_merchant_text textarea{
+	border:1px solid #DEDEDE;
+	box-sizing:border-box;
+	width:100%;
+	padding:10px 15px;
+	line-height:20px;
+}
 /*单选*/
 .icheckbox_flat-green,.iradio_flat-green{display: inline-block;*display: inline;vertical-align: middle;margin: 0;padding: 0;width: 20px;height: 20px;background: url(../images/green.png) no-repeat;border: none;cursor: pointer;}
 .icheckbox_flat-green{background-position: 0 0;}
