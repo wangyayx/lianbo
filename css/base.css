@@ -44,12 +44,18 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 .c_FF5000{
 	color:#FF5000;
 }
+.c_ff8900{
+	color:#FF8900;
+}
 .p_w{margin: 0 auto;width:1200px;}
 .f12{
 	font-size:12px;
 }
 .f16{
 	font-size:16px;
+}
+.mt15{
+	margin-top:15px !important;
 }
 .mt20{
 	margin-top:20px;
@@ -72,9 +78,13 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 .ml10{
 	margin-left:10px;
 }
+.pt20{
+	padding-top:20px;
+}
 .pl40{
 	padding-left:40px;
 }
+
 .input,.select{
 	border:1px solid #dedede;
 	box-sizing:border-box;
@@ -151,7 +161,7 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 	background:url(../images/190910_btnbg5.png) no-repeat;
 	display:inline-block;
 }
-.btn_edit{
+.btn_edit,.btn_edit2{
 	width:80px;
 	line-height:26px;
 	border:1px solid #999;
@@ -185,6 +195,19 @@ article, aside, dialog, footer, header, section, nav, figure, menu{display:block
 	position:absolute;
 	border-radius:14px;
 	cursor:pointer;
+}
+.btn102{
+	width:102px;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	color:#fff;
+	background:url(../images/190910_btnbg6.png) no-repeat;
+	display:inline-block;
+}
+.disable102{
+	background:#b3b3b3;
+	border-radius:18px;
 }
 /*分页*/
 .pages{text-align:center;}
