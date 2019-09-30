@@ -39,22 +39,26 @@
 .dialogTitle span{font-size:18px;color:#333;font-weight:400;line-height:30px;}
 .close_dialog{background:url(../images/close.png) no-repeat;width:16px;height:15px;display:block;position:absolute;right:24px;top:24px;}
 .dialogMain{
-	padding-top:40px;
-	height:150px;
+	padding-top:20px;
+	height:200px;
+}
+.dialogMain .in_taskmode{
+	margin:7px 0;
 }
 .dialogMain dt,.dialogMain dd{
 	float:left;
 }
 .dialogMain dt{
 	margin-right:15px;
+	width:100px;
 }
 .dialogMain dt img{
-	width:60px;
-	height:60px;
-	border-radius:50%;
+	width:98px;
+	height:98px;
+	border:1px solid #ccc;
 }
 .dialogMain dd{
-	width:424px;
+	width:385px;
 	color:#666;
 }
 .dialogMain dd p{
