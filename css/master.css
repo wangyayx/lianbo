@@ -83,7 +83,14 @@ padding:6px 0;
 .banner_list{width:280px;height:500px;float:right;margin-right:30px;background:#fff;position:absolute;top:0;z-index:3;left:50%;margin-left:292px;}
 .banner_list .picScroll-top{padding-top:20px;}
 .banner .p_w{top:0;left:50%;margin-left:-600px;z-index:2;position:absolute;}
-.login{background: url(../images/login_bg.png) no-repeat 50% 0;height:480px;padding-top:90px;}
+.login{background: url(../images/login_bg1.jpg) no-repeat 50% 0;height:480px;padding-top:90px;}
+.login_link{
+	position:absolute;
+	top:126px;
+	width:635px;
+	height:250px;
+	left:23px;
+}
 .loginFrom{margin-right:110px;float:right;background:#fff;width:360px;height:310px;padding:30px 20px 0;}
 .loginTop{line-height:32px;height:32px;margin-bottom: 28px;}
 .loginTop h2{font-size: 18px;font-weight:bold;line-height: 32px;}
